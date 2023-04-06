@@ -1,0 +1,295 @@
+import {
+  javascript,
+  html,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
+  arrow,
+  cc,
+  navy,
+  piqum,
+  threejs,
+  logo,
+  KSG,
+  ksgaming,
+  python,
+  postg,
+  scipy,
+  seaborn,
+  numpy,
+  matplotlib,
+  powerBI,
+  tableau,
+  excel,
+  kw,
+  datastuff,
+  macro,
+} from "../assets";
+import Piqum from "../pages/Piqum";
+
+export const navLinks = [
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "work",
+    title: "Work",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+];
+
+const services = [
+  {
+    title: "Web Development Skills",
+    skills:
+      "HTML5, CSS, Javascript, Tailwind, styled-components, Reactjs, Django, Vitejs, nodejs, mondoDB ",
+    pics: [reactjs, html, css, javascript, tailwind, mongodb, nodejs, redux],
+  },
+
+  {
+    title: "Data Engineering Skills",
+    skills: "PostgreSQL, Python, PowerBI, Tableau, PySpark, Jupyter",
+    pics: [python, postg, powerBI, tableau, scipy, numpy, matplotlib, seaborn],
+  },
+  {
+    title: "Casino Game Design Skills",
+    skills: "Statisics, Probability, Microsoft Excel, Python",
+    pics: [javascript, html, excel, python, postg],
+  },
+];
+
+const technologies = [
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "SQL",
+    icon: postg,
+  },
+];
+
+const experiences = [
+  {
+    title: "Freelance React.js Developer",
+    company_name: "",
+    icon: logo,
+    iconBg: "#383E56",
+    date: "Jan 2023 - Current",
+    points: [
+      "Developed and maintained multiple React-based applications for clients using industry best practices and standards.",
+      "Worked with clients to understand their business needs and goals, and translated them into technical requirements and project plans.",
+      "Implemented responsive and mobile-first designs using React and CSS frameworks like Styled-Components or TailwindCSS.",
+    ],
+  },
+  {
+    title: "Casino Game Designer/Software Engineer",
+    company_name: "KingSize Games",
+    icon: KSG,
+    iconBg: "#E6DEDD",
+    date: "March 2022 - Current",
+    points: [
+      "Designed and developed fully functional, playable game prototypes using Python.",
+      "Decide the type of game play by researching demographics and statistics relating to our games.",
+      "Calculated all mathematical probabilites in multiple games prior to development.",
+    ],
+  },
+  {
+    title: "Data Analyst",
+    company_name: "Clear Capital",
+    icon: cc,
+    iconBg: "#383E56",
+    date: "Aug 2022 - Oct 2022",
+    points: [
+      "Developed custom python automation scripts to improve efficiency and eliminate human error  from daily, weekly, and monthly reports.",
+      "Performed detailed performance analysis on our independent appraiser panel which led to more efficient turn times and reduction in revisions.",
+    ],
+  },
+  {
+    title: "Data Analyst",
+    company_name: "Arrow Electronics",
+    icon: arrow,
+    iconBg: "#E6DEDD",
+    date: "Apr 2022 - Aug 2022",
+    points: [
+      "Developed custom SQL scripts to improve the database efficiency,reduce data load time and enhance performance.",
+      "Perform detailed analysis of key trends and present findings to senior management.",
+      "Deliver technical expertise in data storage structures and data mining/cleansing.",
+    ],
+  },
+  {
+    title: "Air Traffic Controller",
+    company_name: "United States Navy",
+    icon: navy,
+    iconBg: "#383E56",
+    date: "Feb 2011 - Jan 2018",
+    points: [
+      "Wrote SQL queries to obtain data pertaining to flight operations.",
+      "Oversaw routine operations, including planning / briefing personnel on missions, documenting / processing classified materials, identifying /reporting data entry errors, processing / distributing flight progress data, and maintaining security and data integrity of databases.",
+      "Acquired five different analytical air traffic control qualifications and trained more than twenty sailors in those disciplines.",
+    ],
+  },
+];
+
+const projects = [
+  {
+    name: "kingsizegaming.com",
+    description:
+      "Web application that gives detailed company and product information for the company KingSize Games.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ksgaming,
+    source_code_link: "https://github.com/Fishcuit/kingsize-games-modern",
+    website_link: "https://kingsizegaming.com/",
+  },
+  {
+    name: "Portfolio Website",
+    description:
+      "Portfolio website created using React, Tailwind, and Threejs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: kw,
+    source_code_link: "https://github.com/",
+    // website_link: "/piqum",
+    website_link: "https://keithwilcox.io",
+  },
+  {
+    name: "Piqum iGaming",
+    description:
+      "I have successfully developed game prototypes for an innovative series of games called 'Piqum.' These prototypes, built using Python, are fully functional and playable, providing a comprehensive user experience.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "github",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tkinter",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: piqum,
+    source_code_link: "https://github.com/",
+    // website_link: "/piqum",
+    website_link: "https://kingsizegames-production.up.railway.app/index.html",
+  },
+
+  {
+    name: "Poker Analysis",
+    description:
+      "Developed and maintained simulation engines in Python to evaluate and analyze various features in our game designs and adapted them to work with streamlit.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "data analyis",
+        color: "green-text-gradient",
+      },
+      {
+        name: "streamlit",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: datastuff,
+    source_code_link: "https://github.com/Fishcuit/PiQum_stuff",
+    // website_link: "/piqum",
+    website_link: "https://piqumpoker.streamlit.app/",
+  },
+  {
+    name: "Macro Calculator",
+    description:
+      "Developed a macro calculator for my girlfriends nutrition company.",
+    tags: [
+      {
+        name: "html5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: macro,
+    source_code_link: "https://github.com/Fishcuit/macro_calc",
+    // website_link: "/piqum",
+    website_link: "https://macrocalc-production.up.railway.app/",
+  },
+];
+
+export { services, technologies, experiences, projects };
