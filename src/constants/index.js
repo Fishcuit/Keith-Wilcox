@@ -115,6 +115,19 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Game Designer",
+    company_name: "KingSize Games",
+    icon: KSG,
+    iconBg: "#E6DEDD",
+    date: "March 2022 - Current",
+    points: [
+      "Designed and developed innovative casino games using HTML5 and JavaScript, incorporating cutting-edge features and ensuring optimal player engagement and retention.",
+      "Utilized Python to build simulations and test game mechanics, refining gameplay and balancing payout ratios to optimize revenue and player experience.",
+      "Collaborated with cross-functional teams including artists, sound designers, and QA testers to ensure seamless integration of game assets and smooth game flow.",
+      "Applied statistical analysis and probability theory to game design, to create games with fair and profitable payout structures.",
+    ],
+  },
+  {
     title: "Freelance React.js Developer",
     company_name: "",
     icon: logo,
@@ -127,18 +140,6 @@ const experiences = [
     ],
   },
   {
-    title: "Casino Game Designer/Software Engineer",
-    company_name: "KingSize Games",
-    icon: KSG,
-    iconBg: "#E6DEDD",
-    date: "March 2022 - Current",
-    points: [
-      "Designed and developed fully functional, playable game prototypes using Python.",
-      "Decide the type of game play by researching demographics and statistics relating to our games.",
-      "Calculated all mathematical probabilites in multiple games prior to development.",
-    ],
-  },
-  {
     title: "Data Analyst",
     company_name: "Clear Capital",
     icon: cc,
@@ -146,7 +147,7 @@ const experiences = [
     date: "Aug 2022 - Oct 2022",
     points: [
       "Developed custom python automation scripts to improve efficiency and eliminate human error  from daily, weekly, and monthly reports.",
-      "Performed detailed performance analysis on our independent appraiser panel which led to more efficient turn times and reduction in revisions.",
+      "Performed detailed performance analysis on our independent appraiser panel which led to more efficient turn times and a reduction in revisions.",
     ],
   },
   {
