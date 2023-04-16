@@ -24,7 +24,8 @@ import matplotlib from "./tech/matplotlib.png";
 import tableau from "./tech/tableau.png";
 import powerBI from "./tech/powerBI.png";
 import excel from "./tech/excel.png";
-import macro from "./macro.png"
+import macro from "./macro.png";
+import reading from "./reading.png";
 
 import arrow from "./company/arrow.png";
 import navy from "./company/navy.png";
@@ -74,4 +75,5 @@ export {
   close,
   datastuff,
   macro,
+  reading,
 };

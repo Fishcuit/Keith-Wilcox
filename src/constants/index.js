@@ -27,6 +27,7 @@ import {
   kw,
   datastuff,
   macro,
+  reading,
 } from "../assets";
 import Piqum from "../pages/Piqum";
 
@@ -217,7 +218,6 @@ const projects = [
     ],
     image: kw,
     source_code_link: "https://github.com/",
-    // website_link: "/piqum",
     website_link: "https://keithwilcox.io",
   },
   {
@@ -240,7 +240,6 @@ const projects = [
     ],
     image: piqum,
     source_code_link: "https://github.com/",
-    // website_link: "/piqum",
     website_link: "https://kingsizegames-production.up.railway.app/index.html",
   },
 
@@ -264,13 +263,12 @@ const projects = [
     ],
     image: datastuff,
     source_code_link: "https://github.com/Fishcuit/PiQum_stuff",
-    // website_link: "/piqum",
     website_link: "https://piqumpoker.streamlit.app/",
   },
   {
     name: "Macro Calculator",
     description:
-      "Developed a macro calculator for my girlfriends nutrition company.",
+      "Developed a macro calculator for a company called Black Iron Nutrition.",
     tags: [
       {
         name: "html5",
@@ -287,8 +285,29 @@ const projects = [
     ],
     image: macro,
     source_code_link: "https://github.com/Fishcuit/macro_calc",
-    // website_link: "/piqum",
     website_link: "https://macrocalc-production.up.railway.app/",
+  },
+  {
+    name: "Bionic Reading",
+    description:
+      "I saw this on Linkedin one day and went ahead and built one. The idea is that your eyes scan the first bold letters and your brain automatically completes the word. It is supposed to help you read twice as fast. It didn't really work for me but try it for yourself!",
+    tags: [
+      {
+        name: "html5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: reading,
+    source_code_link: "https://github.com/Fishcuit/reading_bold",
+    website_link: "https://readingbold-production.up.railway.app/",
   },
 ];
 
