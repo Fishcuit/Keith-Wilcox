@@ -18,7 +18,7 @@ const ProjectCard = ({
 
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <div>
       <Tilt
         options={{
           max: 45,
@@ -77,16 +77,16 @@ const ProjectCard = ({
           ))}
         </div>
       </Tilt>
-    </motion.div>
+    </div>
   );
 };
 
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText} text-center`}>Projects.</h2>
-      </motion.div>
+      </div>
 
       <div className='mt-20 flex flex-wrap gap-5 justify-center'>
         {projects.map((project, index) => (

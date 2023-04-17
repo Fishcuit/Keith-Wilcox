@@ -224,18 +224,18 @@ const projects = [
   {
     name: "Piqum iGaming",
     description:
-      "I have successfully developed game prototypes for an innovative series of games called 'Piqum.' These prototypes, built using Python, are fully functional and playable, providing a comprehensive user experience.",
+      "I have successfully developed game prototypes for an innovative series of games called 'Piqum.' These prototypes, built using HTML5, JavaScript, and CSS. They are fully functional and playable, providing a comprehensive user experience.",
     tags: [
       {
-        name: "python",
+        name: "html5",
         color: "blue-text-gradient",
       },
       {
-        name: "github",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "tkinter",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
