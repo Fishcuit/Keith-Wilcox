@@ -241,7 +241,7 @@ const projects = [
     ],
     image: piqum,
     source_code_link: "https://github.com/",
-    website_link: "https://kingsizegames-production.up.railway.app/index.html",
+    website_link: "https://piqumgames2-production.up.railway.app/",
   },
 
   {
