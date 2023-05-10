@@ -119,7 +119,7 @@ const experiences = [
     company_name: "KingSize Games",
     icon: KSG,
     iconBg: "#E6DEDD",
-    date: "March 2022 - Current",
+    date: "Jan 2023 - Current",
     points: [
       "Designed and developed innovative casino games using HTML5 and JavaScript, incorporating cutting-edge features and ensuring optimal player engagement and retention.",
       "Utilized Python to build simulations and test game mechanics, refining gameplay and balancing payout ratios to optimize revenue and player experience.",
