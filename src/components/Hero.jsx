@@ -24,9 +24,9 @@ const Hero = () => {
           </h1>
           
           <p className={`${styles.heroSubText} mt-2 text-white-100 text-[24px] font-bold`}>
-            I am a Casino Game Designer  <br className="sm:block hidden" />
+            I am a Statistician <br className="sm:block hidden" />
             with a specialization in <br className="sm:block hidden" />
-            game development and math.
+            sports analytics and data engineering.
           </p>
         </div>
       </div>

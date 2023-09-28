@@ -26,13 +26,13 @@ import powerBI from "./tech/powerBI.png";
 import excel from "./tech/excel.png";
 import macro from "./macro.png";
 import reading from "./reading.png";
-
+import DYNASTY1 from "./company/DYNASTY1.png";
 import arrow from "./company/arrow.png";
 import navy from "./company/navy.png";
 import cc from "./company/cc.png";
 import KSG from "./company/KSG_Logo.png";
 import datastuff from './datastuff.png';
-import ksgaming from "./ksgaming.png";
+import dynasty from "./dynasty.png";
 import piqum from "./piqum.png";
 import kw from "./kw.png";
 import herobg from "./herobg.png";
@@ -57,7 +57,7 @@ export {
   KSG,
   piqum, 
   link,
-  ksgaming, 
+  dynasty, 
   python,
   postg, 
   linked, 
@@ -76,4 +76,5 @@ export {
   datastuff,
   macro,
   reading,
+  DYNASTY1,
 };

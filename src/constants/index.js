@@ -14,7 +14,7 @@ import {
   threejs,
   logo,
   KSG,
-  ksgaming,
+  dynasty,
   python,
   postg,
   scipy,
@@ -28,6 +28,7 @@ import {
   datastuff,
   macro,
   reading,
+  DYNASTY1,
 } from "../assets";
 import Piqum from "../pages/Piqum";
 
@@ -115,6 +116,19 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Creator",
+    company_name: "DynastyDFS",
+    icon: DYNASTY1,
+    iconBg: "#383E56",
+    date: "June 2023 - Current",
+    points: [
+      "Developed and maintained DynastyDFS, an analytical DFS platform used as a tool for user’s to make informed decisions on pick'em style games.",
+      "Developed the site using React/Nextjs and utilized both SQL and NoSQL databases for different purposes.",
+      "Built over 10 different types of machine learning models from basic linear regression to more advanced random forest’s to make predictions on player stats for upcoming contests.",
+      "Building this project gave me experience building mutiple databases and data pipelines to get the data from the source to the end user.",
+    ],
+  },
+  {
     title: "Game Designer",
     company_name: "KingSize Games",
     icon: KSG,
@@ -178,12 +192,12 @@ const experiences = [
 
 const projects = [
   {
-    name: "kingsizegaming.com",
+    name: "Dynasty Dingos",
     description:
-      "Web application that gives detailed company and product information for the company KingSize Games.",
+      "My current project. A sports blog built using Nextjs and supabase.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -195,9 +209,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: ksgaming,
-    source_code_link: "https://github.com/Fishcuit/kingsize-games-modern",
-    website_link: "https://kingsizegaming.com/",
+    image: dynasty,
+    source_code_link: "https://github.com/Fishcuit/sports-blog-copy",
+    website_link: "https://dynastydingos.com/",
   },
   {
     name: "Portfolio Website",
@@ -241,7 +255,7 @@ const projects = [
     ],
     image: piqum,
     source_code_link: "https://github.com/",
-    website_link: "https://piqumgames2-production.up.railway.app/",
+    website_link: "https://kingsizegames-production.up.railway.app/index.html",
   },
 
   {

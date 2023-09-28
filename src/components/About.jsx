@@ -20,12 +20,10 @@ const ServiceCard = ({ index, title, pics }) => (
         }}
         className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
       >
-
-
         <h3 className="text-white text-[20px] font-bold text-center">
           {title}
         </h3>
-        
+
         <div className="flex flex-wrap">
           {pics &&
             pics.map((pic, index) => (
@@ -54,32 +52,36 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px]  leading-[30px]"
       >
-        Hi there! I'm Keith Wilcox, a full-stack developer with a passion for
-        crafting engaging casino games and performing insightful data analysis.
-        I graduated from the University of Nevada, Reno with a Bachelor's degree
-        in Statistics and a minor in Entrepreneurship. Before pursuing a career
-        in development, I served our country for 8 years as an air traffic
-        controller in the United States Navy.
+        Hi there! I'm Keith Wilcox, a statistician with a passion for Daily
+        Fantasy Sports and performing insightful data analysis. I graduated from
+        the University of Nevada, Reno with a Bachelor's degree in Statistics
+        and a minor in Entrepreneurship. Before pursuing a career in statistics,
+        I served our country for 8 years as an air traffic controller in the
+        United States Navy.
       </motion.p>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px]  leading-[30px]"
       >
-        As a freelance React developer, I've been fortunate enough to work on
-        a wide range of projects, from e-commerce platforms to social networking
-        apps. In addition to web developement, I am also proficient in data analysis/engineering. I love
-        digging into large datasets and applying my knowledge in statistics to extract meaningful insights that can
-        help businesses make informed decisions.
+        As a freelance React developer, I've been fortunate enough to work on a
+        wide range of projects, from e-commerce platforms to social networking
+        apps. I have used my skills to development a platform focused on sports
+        analytics called DynastyDFS. In addition to web developement, I am also
+        proficient in data analysis/machine learning. I love digging into large
+        datasets and applying my knowledge in statistics to extract meaningful
+        insights that can help businesses make informed decisions. One of my
+        favorite things to do is build models to predict stats or outcomes for
+        things like sports and other things I am passionate about.
       </motion.p>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] leading-[30px]"
       >
-        Last but not least, I am skilled in designing captivating casino
-        games that keep players coming back for more. I use my keen sense of
-        user experience and my understanding of game theory to craft engaging
-        and entertaining games that keep players hooked. {" "}
+        Last but not least, I am skilled in designing captivating casino games
+        that keep players coming back for more. I use my keen sense of user
+        experience and my understanding of game theory to craft engaging and
+        entertaining games that keep players hooked.{" "}
       </motion.p>
 
       <div className="my-20 flex flex-wrap gap-10 justify-center">
