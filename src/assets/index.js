@@ -37,6 +37,7 @@ import piqum from "./piqum.png";
 import kw from "./kw.png";
 import herobg from "./herobg.png";
 import planet from "./planet.png"
+import art from "./art.png";
 
 export {
   logo,
@@ -77,4 +78,5 @@ export {
   macro,
   reading,
   DYNASTY1,
+  art,
 };

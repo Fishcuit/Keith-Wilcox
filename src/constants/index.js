@@ -29,6 +29,7 @@ import {
   macro,
   reading,
   DYNASTY1,
+  art
 } from "../assets";
 import Piqum from "../pages/Piqum";
 
@@ -117,12 +118,12 @@ const technologies = [
 const experiences = [
   {
     title: "Creator",
-    company_name: "DynastyDFS",
+    company_name: "DFS Props",
     icon: DYNASTY1,
     iconBg: "#383E56",
     date: "June 2023 - Current",
     points: [
-      "Developed and maintained DynastyDFS, an analytical DFS platform used as a tool for user’s to make informed decisions on pick'em style games.",
+      "Developed and maintained DFS Props, an analytical DFS platform used as a tool for user’s to make informed decisions on pick'em style games.",
       "Developed the site using React/Nextjs and utilized both SQL and NoSQL databases for different purposes.",
       "Built over 10 different types of machine learning models from basic linear regression to more advanced random forest’s to make predictions on player stats for upcoming contests.",
       "Building this project gave me experience building mutiple databases and data pipelines to get the data from the source to the end user.",
@@ -133,8 +134,9 @@ const experiences = [
     company_name: "KingSize Games",
     icon: KSG,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Current",
+    date: "Jan 2022 - Current",
     points: [
+      "Designed and developed an art asset management system using Flask and PostgreSQL to efficiently manage and organize game assets, reducing asset search time significantly and integrating version control mechanisms.",
       "Designed and developed innovative casino games using HTML5 and JavaScript, incorporating cutting-edge features and ensuring optimal player engagement and retention.",
       "Utilized Python to build simulations and test game mechanics, refining gameplay and balancing payout ratios to optimize revenue and player experience.",
       "Collaborated with cross-functional teams including artists, sound designers, and QA testers to ensure seamless integration of game assets and smooth game flow.",
@@ -146,7 +148,7 @@ const experiences = [
     company_name: "",
     icon: logo,
     iconBg: "#383E56",
-    date: "Jan 2023 - Current",
+    date: "Jan 2022 - Current",
     points: [
       "Developed and maintained multiple React-based applications for clients using industry best practices and standards.",
       "Worked with clients to understand their business needs and goals, and translated them into technical requirements and project plans.",
@@ -160,7 +162,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Aug 2022 - Oct 2022",
     points: [
-      "Developed custom python automation scripts to improve efficiency and eliminate human error  from daily, weekly, and monthly reports.",
+      "Developed custom python automation scripts to improve efficiency and eliminate human error from daily, weekly, and monthly reports.",
       "Performed detailed performance analysis on our independent appraiser panel which led to more efficient turn times and a reduction in revisions.",
     ],
   },
@@ -192,9 +194,37 @@ const experiences = [
 
 const projects = [
   {
-    name: "Dynasty Dingos",
+    name: "Casino Game Art Asset Management System",
     description:
-      "My current project. A sports blog built using Nextjs and supabase.",
+      "An app I designed and built for KingSize Games to help manage and organize game assets. The app was built using Flask and PostgreSQL. It was designed to reduce asset search time significantly and integrate version control mechanisms.",
+    tags: [
+      {
+        name: "flask",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "html5",
+        color: "blue-text-gradient",
+      },
+
+
+    ],
+    image: art,
+    source_code_link: "https://youtu.be/Auq6EJaoaJc",
+    website_link: "https://youtu.be/Auq6EJaoaJc",
+  },
+  {
+    name: "DFS Props",
+    description:
+      "My current project. A sports analytics website where user can do in-depth research on Daily Fantasy Sports player props. The site also posts weekly predictions using various machine learning models such as linear regression and random forests. Site is currently degraded due to api issues but the code is still available on github.",
     tags: [
       {
         name: "nextjs",
@@ -208,10 +238,19 @@ const projects = [
         name: "javascript",
         color: "pink-text-gradient",
       },
+      {
+        name: "django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "green-text-gradient",
+      },
+
     ],
     image: dynasty,
     source_code_link: "https://github.com/Fishcuit/sports-blog-copy",
-    website_link: "https://dynastydingos.com/",
+    website_link: "https://dfsprops.com/",
   },
   {
     name: "Portfolio Website",
@@ -238,7 +277,7 @@ const projects = [
   {
     name: "Piqum iGaming",
     description:
-      "I have successfully developed game prototypes for an innovative series of games called 'Piqum.' These prototypes, built using HTML5, JavaScript, and CSS. They are fully functional and playable, providing a comprehensive user experience.",
+      "Please contact me to view. Developed game prototypes for an innovative series of i-games called 'Piqum.' These prototypes, built using HTML5, JavaScript, and CSS. They are fully functional and playable, providing a comprehensive user experience.",
     tags: [
       {
         name: "html5",
@@ -255,7 +294,7 @@ const projects = [
     ],
     image: piqum,
     source_code_link: "https://github.com/",
-    website_link: "https://kingsizegames-production.up.railway.app/index.html",
+    website_link: "",
   },
 
   {
@@ -300,7 +339,7 @@ const projects = [
     ],
     image: macro,
     source_code_link: "https://github.com/Fishcuit/macro_calc",
-    website_link: "https://macrocalc-production.up.railway.app/",
+    website_link: "https://www.blackironnutrition.com/free-macro-calculator",
   },
   {
     name: "Bionic Reading",
