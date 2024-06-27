@@ -31,6 +31,7 @@ import arrow from "./company/arrow.png";
 import navy from "./company/navy.png";
 import cc from "./company/cc.png";
 import KSG from "./company/KSG_Logo.png";
+import SH from "./company/SH.png";
 import datastuff from './datastuff.png';
 import dynasty from "./dynasty.png";
 import piqum from "./piqum.png";
@@ -56,6 +57,7 @@ export {
   navy,
   cc,
   KSG,
+  SH,
   piqum, 
   link,
   dynasty, 

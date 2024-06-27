@@ -14,6 +14,7 @@ import {
   threejs,
   logo,
   KSG,
+  SH,
   dynasty,
   python,
   postg,
@@ -29,9 +30,9 @@ import {
   macro,
   reading,
   DYNASTY1,
-  art
+  art,
 } from "../assets";
-import Piqum from "../pages/Piqum";
+import Piqum from "../pages/Resume";
 
 export const navLinks = [
   {
@@ -123,17 +124,32 @@ const experiences = [
     iconBg: "#383E56",
     date: "June 2023 - Current",
     points: [
-      "Developed and maintained DFS Props, an analytical DFS platform used as a tool for user’s to make informed decisions on pick'em style games.",
-      "Developed the site using React/Nextjs and utilized both SQL and NoSQL databases for different purposes.",
-      "Built over 10 different types of machine learning models from basic linear regression to more advanced random forest’s to make predictions on player stats for upcoming contests.",
-      "Building this project gave me experience building mutiple databases and data pipelines to get the data from the source to the end user.",
+      "Oversaw pre-game and in-play projections for various sports, including NFL, NBA, NHL, and college sports, enhancing user engagement and accuracy.",
+      "Created and managed diverse contest predictions for Pick’em games, significantly increasing user traffic to over 150 unique vistors a day.",
+      "Launched projections for new sports, expanding the platform’s offerings and user base.",
+      "Implemented statistical models to enhance betting accuracy and manage risks effectively.",
+      "Conducted market analysis to identify betting patterns and develop effective strategies.",
+      "Maintained PostgreSQL databases and created hundreds of complex queries for key features.",
+      "Site built using NextJS, Tailwind, Python, and PostgreSQL.",
+    ],
+  },
+  {
+    title: "Basketball / Football Scout",
+    company_name: "Scounting Heroes",
+    icon: SH,
+    iconBg: "#E6DEDD",
+    date: "Nov 2023 - Current",
+    points: [
+      "Managed real-time data entry for college basketball and football games, ensuring accuracy and attention to detail.",
+      "Collaborated with the QA team for precise and timely updates, highlighting teamwork and commitment to quality.",
+      "Utilized specialized software for data input and analysis, demonstrating adaptability to various technology platforms."
     ],
   },
   {
     title: "Game Designer",
     company_name: "KingSize Games",
     icon: KSG,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "Jan 2022 - Current",
     points: [
       "Designed and developed an art asset management system using Flask and PostgreSQL to efficiently manage and organize game assets, reducing asset search time significantly and integrating version control mechanisms.",
@@ -147,7 +163,7 @@ const experiences = [
     title: "Freelance React.js Developer",
     company_name: "",
     icon: logo,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "Jan 2022 - Current",
     points: [
       "Developed and maintained multiple React-based applications for clients using industry best practices and standards.",
@@ -214,8 +230,6 @@ const projects = [
         name: "html5",
         color: "blue-text-gradient",
       },
-
-
     ],
     image: art,
     source_code_link: "https://youtu.be/Auq6EJaoaJc",
@@ -246,7 +260,6 @@ const projects = [
         name: "postgresql",
         color: "green-text-gradient",
       },
-
     ],
     image: dynasty,
     source_code_link: "https://github.com/Fishcuit/sports-blog-copy",

@@ -66,8 +66,8 @@ const About = () => {
       >
         As a freelance React developer, I've been fortunate enough to work on a
         wide range of projects, from e-commerce platforms to social networking
-        apps. I have used my skills to development a platform focused on sports
-        analytics called DynastyDFS. In addition to web developement, I am also
+        apps. I have used my skills to develop a platform focused on sports
+        analytics called <a href="https://www.dfsprops.com" className="text-blue-500 hover:underline">DFSprops.com</a>. In addition to web developement, I am also
         proficient in data analysis/machine learning. I love digging into large
         datasets and applying my knowledge in statistics to extract meaningful
         insights that can help businesses make informed decisions. One of my

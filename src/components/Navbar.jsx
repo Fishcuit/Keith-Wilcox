@@ -4,7 +4,6 @@ import { styles } from "../style";
 import { navLinks } from "../constants";
 import { logo, menu, close, github, linked } from "../assets";
 
-
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -33,28 +32,44 @@ const Navbar = () => {
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
-      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
-          to='/'
-          className='flex items-center gap-2'
+          to="/"
+          className="flex items-center gap-2"
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             &nbsp;
-            <span className='sm:block hidden'> | </span>
+            <span className="sm:block hidden"> | </span>
           </p>
           <div className="flex">
-        <img src={github} alt='GitHub' className='w-10 h-10 cursor-pointer' onClick={() => window.open("https://github.com/Fishcuit", "_blank")} />
-        <img src={linked} alt='GitHub' className='w-10 h-10 cursor-pointer' onClick={() => window.open("https://www.linkedin.com/in/keith-wilcox12/", "_blank")} />
-        </div>
+            <img
+              src={github}
+              alt="GitHub"
+              className="w-10 h-10 cursor-pointer"
+              onClick={() =>
+                window.open("https://github.com/Fishcuit", "_blank")
+              }
+            />
+            <img
+              src={linked}
+              alt="GitHub"
+              className="w-10 h-10 cursor-pointer"
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/keith-wilcox12/",
+                  "_blank"
+                )
+              }
+            />
+          </div>
         </Link>
-        
-        
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+
+        <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -64,20 +79,18 @@ const Navbar = () => {
               onClick={() => setActive(nav.title)}
             >
               <a href={`/#${nav.id}`}>{nav.title}</a>
-            </li>           
+            </li>
           ))}
-          <li className='text-secondary hover:text-white text-[18px] font-medium cursor-pointer'>
-            <a href="https://drive.google.com/file/d/1Xf0KHwr3gX4VB0g5KC0GGHNUH5j1Omjy/view?usp=sharing" target="_blank">View Resume</a>
+          <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
+            <Link to="/resume">View Resume</Link>
           </li>
-          
         </ul>
-        
 
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
-            alt='menu'
-            className='w-[28px] h-[28px] object-contain'
+            alt="menu"
+            className="w-[28px] h-[28px] object-contain"
             onClick={() => setToggle(!toggle)}
           />
 
@@ -86,7 +99,7 @@ const Navbar = () => {
               !toggle ? "hidden" : "flex"
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
-            <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
+            <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}
@@ -102,7 +115,6 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            
           </div>
         </div>
       </div>

@@ -26,7 +26,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100 text-[24px] font-bold`}>
             I am a Statistician <br className="sm:block hidden" />
             with a specialization in <br className="sm:block hidden" />
-            sports analytics and data engineering.
+            sports analytics and machine learning.
           </p>
         </div>
       </div>
